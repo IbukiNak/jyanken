@@ -37,7 +37,8 @@ public class Main {
             System.exit(0);
             return;
         }
+        com.createRandomHand();
         //  テストコード
-        System.out.println(user.getHand().getHandName());
+        System.out.println(com.getHand().getHandName());
     }
 }
