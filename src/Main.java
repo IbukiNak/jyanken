@@ -37,7 +37,10 @@ public class Main {
             System.exit(0);
             return;
         }
+
         //  テストコード
-        System.out.println(user.getHand().getHandName());
+        //System.out.println(user.getHand().getHandName());
+        //勝敗決定
+        //int result = game.judge(user, com);
     }
 }

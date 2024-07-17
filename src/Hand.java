@@ -7,6 +7,7 @@ public interface Hand {
      　　　　0 : 自身が引数で指定した手と同じ
      　　　　1 : 自身が引数で指定した手より強い
      */
+
     public int compare(Hand hand);
     public String getHandName();
 }
